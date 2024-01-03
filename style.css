@@ -33,9 +33,9 @@ img {
     justify-content: space-between;
 }
 .containerimg {
-    right: -1000px;
-    position: absolute;
     display: flex;
+    transition-property: transform;
+    transition-duration: 1s;
 }
 .arrow-hover {
     cursor: pointer;
